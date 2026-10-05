@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/*
+*.log
+
+# Temporary evaluation workspaces
+workspaces/*
+.evaluation_venv/
+
+# Student submissions / downloaded projects
+submissions/github/*
+submissions/uploads/*
+
+# Generated evaluation results
+results/raw/*
+results/scores/*
+results/reports/*
+
+# Temporary test artifacts
+test_cases/*
+
+# OS files
+.DS_Store
+Thumbs.db
