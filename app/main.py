@@ -1187,10 +1187,11 @@ def _esc_html(text: str) -> str:
 
 
 if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 7860))
     ui = build_ui()
     ui.launch(
         server_name="0.0.0.0",
-        server_port=7860,
+        server_port=port,
         share=False,
         show_error=True,
         footer_links=[],
